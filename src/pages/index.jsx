@@ -1,9 +1,9 @@
 import {PostCard,PostWidget,Categories} from '../components'
 const posts = [
     {title:'React Testing' ,excerpt : 'Learning React Post',slug:'react-testing',
-    author : {name:'Nguyen The Long Hai',photo:{url:'https://icon-library.com/images/author-icon/author-icon-10.jpg'}}
+    author : {name:'Nguyen The Long Hai',photo:{url:'https://icon-library.com/images/author-icon/author-icon-10.jpg'},category : {name: 'Finance'}}
     ,featuredImage :{url:'https://media.sproutsocial.com/uploads/2019/09/how-to-write-a-blog-post.svg'}} ,
-    {title:'React Testing' ,excerpt : 'Learning React Post',slug:'react-testing',
+    {title:'The State of end-to-end testing with Angular' ,excerpt : 'Learning React Post',slug:'the-state-of-end-to-end-testing-with-angular',
     author : {name:'Nguyen The Long Hai',photo:{url:'https://icon-library.com/images/author-icon/author-icon-10.jpg'}}
     ,featuredImage :{url:'https://media.sproutsocial.com/uploads/2019/09/how-to-write-a-blog-post.svg'}},
     {title:'React Testing' ,excerpt : 'Learning React Post',slug:'react-testing',
