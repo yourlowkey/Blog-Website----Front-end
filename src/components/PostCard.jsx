@@ -39,7 +39,7 @@ const PostCard = ({post}) => {
           {/* <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span> */}
         </div>
       </div>
-      <p className="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8">
+      <p className="text-center text-lg text-gray-700 font-normal px-2 lg:px-4 mb-8">
         {post.excerpt}
       </p>
       <div className="text-center">
